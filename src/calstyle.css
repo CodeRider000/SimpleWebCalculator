@@ -2,9 +2,11 @@ body{
     width:100%;
     height: 100%;
     margin: auto 0;
+    background-color: #202020;
+    color: aliceblue;
 }
 .cover{
-    width: 100%;
+    width: 100%0
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -28,6 +30,7 @@ textarea{
 button{
     width: 70px;
     height: 40px;
+    transition: 200ms;
 }
 .input-btns{
     display: flex;
@@ -45,4 +48,9 @@ button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:10px;
+}
+button:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+    background-color: #202020;
 }
