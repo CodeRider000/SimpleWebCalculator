@@ -29,13 +29,17 @@ body{
     padding: 6px 8px;
     transition: 300ms;
     font-family: 'Dosis', sans-serif;
-    color: #285943;
+    color: #6320EE;
     font-weight: bold;
+    -webkit-text-stroke-color: #202020;
+    -webkit-text-stroke-width: 0.000000000000005px;
 }
 .btn:hover{
-    transform:scale(1.03);
+    transform:scale(1.1);
     background-color: #202020;
     color: aliceblue;
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 0.000000000000005px;
 }
 .cover-heading{
     width: 100%;

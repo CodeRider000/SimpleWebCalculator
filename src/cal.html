@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+  <link rel="stylesheet" href="calstyle.css">
+</head>
+<body>
+<div class="cover">
+  <div class = "display-line">
+    <textarea class = "xarea" id = "xarea"></textarea>
+    <textarea class = "oarea" id = "oarea"></textarea>
+    <textarea class = "yarea" id = "yarea"></textarea>
+    <h3 class = "leq">||</h3>
+    <textarea class = "rarea" id = "rarea"></textarea>
+  </div>
+  <div class = "input-btns">
+    <div class = number-btn>
+      <button onclick="clicked_num(1)">1</button>
+      <button onclick="clicked_num(2)">2</button>
+      <button onclick="clicked_num(3)">3</button>
+      <button onclick="clicked_num(4)">4</button>
+      <button onclick="clicked_num(5)">5</button>
+      <button onclick="clicked_num(6)">6</button>
+      <button onclick="clicked_num(7)">7</button>
+      <button onclick="clicked_num(8)">8</button>
+      <button onclick="clicked_num(9)">9</button>
+    </div>
+    <div class = "operation-btn">
+      <button onclick="clicked_plus()">+</button>
+      <button onclick="clicked_minus()">-</button>
+      <button onclick="clicked_multi()">*</button>
+      <button onclick="clicked_div()">/</button>
+      <button onclick="clicked_clear()">clear</button>
+      <button onclick="clicked_res()">=</button>
+    </div>
+  </div>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
